@@ -11,7 +11,7 @@ const genCompChoice = () => {
 const options = ["rock", "paper", "scissor"];  //random index which helps to select our options
 const randInx = Math.floor(Math.random()*3);
 return options[randInx];
-};
+}; 
 
 const drawGame =() => {
     msg.innerText ="game was drawn . Play Again";
